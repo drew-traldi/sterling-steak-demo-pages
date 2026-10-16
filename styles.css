@@ -27,3 +27,34 @@ h2,.section-heading h2,.gathering-heading h2,.visit-card h2,.footer-phone{font-s
 .demo-logo{width:70px;height:auto;margin-bottom:30px;object-fit:contain}.demo-welcome h2{font-size:54px;line-height:1.02;letter-spacing:-.04em;margin-bottom:26px}
 .demo-welcome p{font-size:16px;line-height:1.55;max-width:390px}.demo-welcome strong{font-weight:500}.demo-detail{margin-top:16px}.demo-enter{width:100%;gap:26px;margin-top:30px}.demo-welcome .demo-caption{font-size:14px;margin-top:20px}
 @media(max-width:480px){.demo-welcome{padding:35px 28px 28px}.demo-logo{width:56px;margin-bottom:24px}.demo-welcome h2{font-size:44px;margin-bottom:22px}.demo-enter{margin-top:24px}}
+
+/* Sterling's photographs, grouped into an editorial gallery. */
+.gallery-section{background:var(--surface)}
+.gallery-heading{display:flex;justify-content:space-between;align-items:end;gap:48px;margin-bottom:60px}
+.gallery-heading>p{max-width:420px;font-size:18px;line-height:1.5}
+.gallery-eyebrow{font-size:13px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;margin-bottom:20px}
+.gallery-filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:34px}
+.gallery-filters button{padding:12px 17px;min-height:46px;background:transparent;border:1px solid rgba(36,25,19,.35);font-size:15px;transition:background .2s,color .2s,border-color .2s}
+.gallery-filters button[aria-pressed=true],.gallery-filters button:hover{background:var(--dark);border-color:var(--dark);color:var(--light)}
+.gallery-grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:42px 22px}
+.gallery-card{grid-column:span 4;min-width:0}
+.gallery-card:nth-child(10n+1){grid-column:span 8}
+.gallery-card button{display:block;width:100%;padding:0;text-align:left;background:transparent}
+.gallery-card img{width:100%;aspect-ratio:4/3;object-fit:cover;background:#d6cbbf;transition:transform .55s var(--ease),filter .55s var(--ease)}
+.gallery-card:nth-child(10n+1) img{aspect-ratio:16/9}
+.gallery-card .gallery-image{display:block;overflow:hidden}
+.gallery-card button:hover img{transform:scale(1.045);filter:brightness(.92)}
+.gallery-card figcaption{display:flex;justify-content:space-between;gap:10px;align-items:baseline;margin-top:13px;font-size:15px}
+.gallery-card figcaption span:last-child{color:var(--muted);font-size:13px;white-space:nowrap}
+.gallery-footer{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:24px;margin-top:58px}
+.gallery-footer .text-link{margin-left:auto}
+.gallery-footer #gallery-more[hidden]{display:none}
+.photo-meta{display:flex;align-items:center;justify-content:space-between;gap:30px}
+.photo-dialog .photo-meta p{margin-top:0}
+.photo-nav{display:flex;align-items:center;gap:8px;flex-shrink:0}
+.photo-nav[hidden]{display:none}
+.photo-nav button{width:44px;height:44px;background:rgba(255,255,255,.12);color:var(--light);font-size:22px;transition:background .2s}
+.photo-nav button:hover{background:rgba(255,255,255,.28)}
+.photo-nav span{font-size:13px;font-variant-numeric:tabular-nums;min-width:56px;text-align:center}
+@media(max-width:780px){.gallery-heading{display:block;margin-bottom:38px}.gallery-heading>p{margin-top:22px}.gallery-grid{gap:32px 14px}.gallery-card,.gallery-card:nth-child(10n+1){grid-column:span 6}.gallery-card:nth-child(7n+1){grid-column:span 12}.gallery-card img{aspect-ratio:4/5}.gallery-card:nth-child(7n+1) img{aspect-ratio:16/10}.gallery-card figcaption{display:block}.gallery-card figcaption span:last-child{display:block;margin-top:3px}.gallery-footer{margin-top:42px}}
+@media(max-width:480px){.gallery-filters{gap:6px}.gallery-filters button{padding:9px 11px;min-height:42px;font-size:13px}.gallery-grid{gap:24px 10px}.gallery-card figcaption{font-size:13px}.gallery-card figcaption span:last-child{font-size:11px}.gallery-footer{display:block}.gallery-footer .button{width:100%;margin-bottom:22px}.gallery-footer .text-link{margin-left:0}.photo-meta{display:block}.photo-nav{justify-content:space-between;margin-top:15px}}

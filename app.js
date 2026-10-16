@@ -162,7 +162,7 @@ document.addEventListener('click',async e=>{
  const inquiry=e.target.closest('[data-inquiry]');
  if(inquiry){$('#inquiry-title').textContent=inquiry.dataset.inquiry==='catering'?'Let’s talk catering':'Your gathering';if(inquiry.dataset.inquiry==='catering')$('#inquiry-form [name=occasion]').value='Catering';else if($('#inquiry-form [name=occasion]').value==='Catering')$('#inquiry-form [name=occasion]').value='Birthday';$('#email-draft')?.remove();openDialog($('#inquiry-dialog'));return;}
  const photo=e.target.closest('[data-lightbox]');
- if(photo){$('#lightbox-image').src=photo.dataset.lightbox;$('#lightbox-image').alt=photo.querySelector('img').alt;$('#lightbox-caption').textContent=photo.dataset.caption;openDialog($('#photo-dialog'));}
+ if(photo){$('#photo-nav').hidden=true;$('#lightbox-image').src=photo.dataset.lightbox;$('#lightbox-image').alt=photo.querySelector('img').alt;$('#lightbox-caption').textContent=photo.dataset.caption;openDialog($('#photo-dialog'));}
 });
 const dateField=$('#inquiry-form [name=date]');const now=new Date();dateField.min=`${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}-${String(now.getDate()).padStart(2,'0')}`;
 $('#inquiry-form').addEventListener('input',()=>$('#email-draft')?.remove());
@@ -180,3 +180,71 @@ $('#inquiry-form').addEventListener('submit',e=>{
 const welcomeDialog = $('#demo-welcome');
 welcomeDialog.addEventListener('close', () => $('.wordmark').focus({preventScroll:true}));
 openDialog(welcomeDialog);
+
+const galleryGrid = $('#gallery-grid');
+const galleryMore = $('#gallery-more');
+const galleryNames = {food:'At the table',drinks:'At the bar',room:'The spaces',people:'The people'};
+let galleryPhotos = [], galleryFilter = 'all', galleryShown = 12, activePhoto = 0;
+const galleryPromise = fetch('assets/gallery.json').then(response => {
+ if (!response.ok) throw Error('gallery unavailable');
+ return response.json();
+}).then(photos => { galleryPhotos = photos; renderGallery(); }).catch(() => {
+ $('#gallery-status').textContent = 'Photographs could not load. Visit Sterling’s full gallery using the link below.';
+});
+function filteredGallery() {
+ return galleryFilter === 'all' ? galleryPhotos : galleryPhotos.filter(photo => photo.category === galleryFilter);
+}
+function renderGallery() {
+ const photos = filteredGallery();
+ galleryGrid.replaceChildren();
+ photos.slice(0,galleryShown).forEach((photo,index) => {
+  const figure = document.createElement('figure'); figure.className='gallery-card';
+  const button = document.createElement('button'); button.type='button'; button.dataset.galleryIndex=String(index); button.setAttribute('aria-label',`View photograph: ${photo.caption}`);
+  const frame = document.createElement('span'); frame.className='gallery-image';
+  const image = document.createElement('img'); image.src=photo.thumb; image.alt=photo.alt; image.loading='lazy'; image.decoding='async'; image.width=720; image.height=720;
+  const caption = document.createElement('figcaption');
+  const title = document.createElement('span'); title.textContent=photo.caption;
+  const group = document.createElement('span'); group.textContent=galleryNames[photo.category];
+  frame.append(image); caption.append(title,group); button.append(frame); figure.append(button,caption); galleryGrid.append(figure);
+ });
+ galleryMore.hidden = photos.length <= galleryShown;
+ $('#gallery-status').textContent = `${photos.length} photographs in ${galleryFilter === 'all' ? 'all moments' : galleryNames[galleryFilter]}. Showing ${Math.min(galleryShown,photos.length)}.`;
+}
+$$('[data-gallery-filter]').forEach(button => button.addEventListener('click', () => {
+ galleryFilter=button.dataset.galleryFilter; galleryShown=galleryFilter==='all'?12:8;
+ $$('[data-gallery-filter]').forEach(filter => filter.setAttribute('aria-pressed',String(filter===button)));
+ renderGallery();
+}));
+galleryMore.addEventListener('click', () => {
+ galleryShown += 12; renderGallery(); galleryGrid.querySelectorAll('.gallery-card')[galleryShown-12]?.querySelector('button')?.focus({preventScroll:true});
+});
+galleryGrid.addEventListener('click', event => {
+ const card=event.target.closest('[data-gallery-index]');
+ if (!card) return;
+ activePhoto=Number(card.dataset.galleryIndex);
+ showGalleryPhoto();
+ openDialog($('#photo-dialog'));
+});
+function showGalleryPhoto() {
+ const photos=filteredGallery(), photo=photos[activePhoto];
+ if (!photo) return;
+ $('#photo-nav').hidden=false;
+ $('#lightbox-image').src=photo.full;
+ $('#lightbox-image').alt=photo.alt;
+ $('#lightbox-caption').textContent=photo.caption;
+ $('#photo-count').textContent=`${activePhoto+1} / ${photos.length}`;
+}
+function stepGallery(direction) {
+ const count=filteredGallery().length;
+ if (!count) return;
+ activePhoto=(activePhoto+direction+count)%count;
+ showGalleryPhoto();
+}
+$('#photo-prev').addEventListener('click',()=>stepGallery(-1));
+$('#photo-next').addEventListener('click',()=>stepGallery(1));
+$('#photo-dialog').addEventListener('keydown',event => {
+ if ($('#photo-nav').hidden) return;
+ if (event.key==='ArrowLeft' || event.key==='ArrowRight') {
+  event.preventDefault(); stepGallery(event.key==='ArrowRight'?1:-1);
+ }
+});
