@@ -1,0 +1,1760 @@
+{
+  "food": [
+    {
+      "name": "Appetizers",
+      "menu": "Main Menu",
+      "items": [
+        {
+          "name": "Tuna Napoleon",
+          "price": "$28.00",
+          "description": ""
+        },
+        {
+          "name": "French Onion",
+          "price": "$16.00",
+          "description": ""
+        },
+        {
+          "name": "Lobster Bisque",
+          "price": "$18.00",
+          "description": "Cup $11.00"
+        },
+        {
+          "name": "Red Bicyle 'Stick Bread'",
+          "price": "$16.00",
+          "description": "Add Garlic +$6.00 |  Add Brie +$11.00"
+        },
+        {
+          "name": "Sterling Crab Cakes",
+          "price": "$26.00",
+          "description": ""
+        },
+        {
+          "name": "Calamari",
+          "price": "$21.00",
+          "description": ""
+        },
+        {
+          "name": "Blue Cheese Wedge*",
+          "price": "$19.00",
+          "description": ""
+        },
+        {
+          "name": "Sterling House Salad*",
+          "price": "$18.00",
+          "description": ""
+        },
+        {
+          "name": "Roasted Bone Marrow",
+          "price": "$32.00",
+          "description": ""
+        },
+        {
+          "name": "Blue Cheese Chips",
+          "price": "$15.00",
+          "description": ""
+        },
+        {
+          "name": "Spinach & Artichoke Dip",
+          "price": "$18.00",
+          "description": ""
+        },
+        {
+          "name": "Stuffed Portobello",
+          "price": "$25.00",
+          "description": ""
+        },
+        {
+          "name": "Caesar Salad*",
+          "price": "$18.00",
+          "description": "Add Anchovies +$8.00"
+        },
+        {
+          "name": "Caprese Salad",
+          "price": "$19.00",
+          "description": ""
+        },
+        {
+          "name": "Seafood Platter",
+          "price": "MP",
+          "description": ""
+        },
+        {
+          "name": "Seared Ahi Tuna Salad",
+          "price": "$28.00",
+          "description": ""
+        },
+        {
+          "name": "Shrimp Cocktail",
+          "price": "$24.00",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Entrées",
+      "menu": "Main Menu",
+      "items": [
+        {
+          "name": "Filet Mignon",
+          "price": "",
+          "description": "6 oz. $62.00 | 10 oz. $78.00"
+        },
+        {
+          "name": "Prime Rib (16 oz.) (weekends only)",
+          "price": "$68.00",
+          "description": ""
+        },
+        {
+          "name": "Rib Eye (14 oz.)",
+          "price": "$78.00",
+          "description": ""
+        },
+        {
+          "name": "New York Strip (14 oz.)",
+          "price": "$72.00",
+          "description": ""
+        },
+        {
+          "name": "Porterhouse",
+          "price": "",
+          "description": "22 oz. $88.00 | 30 oz. $110.00"
+        },
+        {
+          "name": "Game of The Week",
+          "price": "MP",
+          "description": ""
+        },
+        {
+          "name": "Tomahawk (45 oz.)",
+          "price": "MP",
+          "description": ""
+        },
+        {
+          "name": "Surf & Turf",
+          "price": "$99.00",
+          "description": ""
+        },
+        {
+          "name": "Niman Ranch Lamb Shank (18oz)",
+          "price": "$79.00",
+          "description": ""
+        },
+        {
+          "name": "Lemon Caper Chicken",
+          "price": "$39.00",
+          "description": ""
+        },
+        {
+          "name": "Seared Ahi Tuna (6 oz.)",
+          "price": "$42.00",
+          "description": ""
+        },
+        {
+          "name": "Pan Seared Scallops",
+          "price": "$56.00",
+          "description": ""
+        },
+        {
+          "name": "Salmon (6 oz.)",
+          "price": "$52.00",
+          "description": ""
+        },
+        {
+          "name": "Parmesan Crusted Chilean Seabass (6 oz.)",
+          "price": "$64.00",
+          "description": ""
+        },
+        {
+          "name": "Twin Lobster Tails (12 oz.)",
+          "price": "$90.00",
+          "description": ""
+        },
+        {
+          "name": "Tenderloin Lasagna",
+          "price": "$44.00",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "menu": "Main Menu",
+      "items": [
+        {
+          "name": "Garlic Mashed Potatoes",
+          "price": "$14.00",
+          "description": ""
+        },
+        {
+          "name": "Creamed Spinach",
+          "price": "$17.00",
+          "description": ""
+        },
+        {
+          "name": "Sauteed Spinach",
+          "price": "$16.00",
+          "description": ""
+        },
+        {
+          "name": "Asparagus",
+          "price": "$15.00",
+          "description": ""
+        },
+        {
+          "name": "Broccoli",
+          "price": "$15.00",
+          "description": ""
+        },
+        {
+          "name": "Sautéed Mushrooms",
+          "price": "$15.00",
+          "description": ""
+        },
+        {
+          "name": "Lobster Mashed Potatoes",
+          "price": "$34.00",
+          "description": ""
+        },
+        {
+          "name": "Mac & Cheese",
+          "price": "$16.00",
+          "description": ""
+        },
+        {
+          "name": "Sterling Fries",
+          "price": "$14.00",
+          "description": ""
+        },
+        {
+          "name": "Baked Potato",
+          "price": "$14.00",
+          "description": ""
+        },
+        {
+          "name": "Roasted Corn",
+          "price": "$14.00",
+          "description": ""
+        },
+        {
+          "name": "Roasted Pancetta Brussels",
+          "price": "$18.00",
+          "description": ""
+        },
+        {
+          "name": "Lobster Mac & Cheese",
+          "price": "$34.00",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Sauces",
+      "menu": "Main Menu",
+      "items": [
+        {
+          "name": "Demi Glaze",
+          "price": "",
+          "description": ""
+        },
+        {
+          "name": "Peppercorn",
+          "price": "",
+          "description": ""
+        },
+        {
+          "name": "Sterling Steak Sauce",
+          "price": "",
+          "description": ""
+        },
+        {
+          "name": "Bearnaise",
+          "price": "",
+          "description": ""
+        },
+        {
+          "name": "Lemon Caper Beurre Blanc",
+          "price": "",
+          "description": ""
+        },
+        {
+          "name": "Chimichurri",
+          "price": "",
+          "description": ""
+        },
+        {
+          "name": "Au Jus",
+          "price": "",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Tapas",
+      "menu": "Tapas Menu",
+      "items": [
+        {
+          "name": "Chicken Satay**",
+          "price": "$14.00",
+          "description": "Served with Thai peanut sauce."
+        },
+        {
+          "name": "Calamari**",
+          "price": "",
+          "description": "Breaded & fried, served with marinara and tartar sauce."
+        },
+        {
+          "name": "Bleu Cheese Chips**",
+          "price": "",
+          "description": "Tomatoes, red onion, bleu cheese, & green onion on house made kettle chips ."
+        },
+        {
+          "name": "Steak Sandwich",
+          "price": "",
+          "description": "Served on Hawaiian bread with lettuce, tomato, red onion and provolone cheese | Add Bacon"
+        },
+        {
+          "name": "Charcuterie Board (GF)",
+          "price": "",
+          "description": "Brie, provolone, gouda, blue cheese crumbles, roasted red peppers, black olives, salami, capicola,  pickles, pickled green chili peppers, red pepper hummus and crackers | Fit for 2"
+        },
+        {
+          "name": "Sterling Fries**",
+          "price": "",
+          "description": "House cut fries with truffle oil & parmesan."
+        },
+        {
+          "name": "Red Bicycle Bread",
+          "price": "",
+          "description": "Add Brie | Add Rosted Garlic"
+        },
+        {
+          "name": "Pancetta Brussels Sprouts** (GF)",
+          "price": "",
+          "description": "Aauteed with pancetta, onions, feta cheese and balsalmic."
+        },
+        {
+          "name": "Tuna Napoleon**",
+          "price": "",
+          "description": "Fried phyllo crisps stacked with ponzu marinated tuna, furakake salad and house made pickles."
+        },
+        {
+          "name": "Beef Satay** (GF)",
+          "price": "",
+          "description": "Served with sterling steak sauce and demi glaze."
+        },
+        {
+          "name": "Sterling Filet Burger",
+          "price": "",
+          "description": "Served on Hawaiian bread with lettuce, tomato, red onion and provolone cheese | Add Bacon"
+        },
+        {
+          "name": "St. Louis Ribs & Fries",
+          "price": "",
+          "description": "1/2 rack of 14-hour slow cooked pork ribs, served with fries, cole slaw and house made pickles."
+        },
+        {
+          "name": "Sterling Meatballs",
+          "price": "",
+          "description": "4 tenderloin meatballs stuffed with mozzarella cheese."
+        }
+      ]
+    },
+    {
+      "name": "Dessert Menu",
+      "menu": "Dessert Menu",
+      "items": [
+        {
+          "name": "Caramel Turtle Lava Cake",
+          "price": "",
+          "description": ""
+        },
+        {
+          "name": "Seasonal Cheesecake",
+          "price": "",
+          "description": ""
+        },
+        {
+          "name": "Chocolate Lava Cake (GF)",
+          "price": "",
+          "description": ""
+        },
+        {
+          "name": "Mixed Berry Bowl",
+          "price": "",
+          "description": ""
+        },
+        {
+          "name": "Crème Brulee",
+          "price": "",
+          "description": ""
+        },
+        {
+          "name": "Single Scoop lce Cream",
+          "price": "",
+          "description": ""
+        },
+        {
+          "name": "Double Scoop",
+          "price": "",
+          "description": ""
+        },
+        {
+          "name": "Hot Chocolate",
+          "price": "",
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "drink": [
+    {
+      "name": "Coffee & Tea",
+      "menu": "Coffee & Tea",
+      "items": [
+        {
+          "name": "Coffee",
+          "price": "",
+          "description": ""
+        },
+        {
+          "name": "Tea",
+          "price": "",
+          "description": ""
+        },
+        {
+          "name": "Espresso",
+          "price": "",
+          "description": ""
+        },
+        {
+          "name": "Double Espresso",
+          "price": "",
+          "description": ""
+        },
+        {
+          "name": "Affogatto",
+          "price": "",
+          "description": ""
+        },
+        {
+          "name": "Cappuccino",
+          "price": "",
+          "description": ""
+        },
+        {
+          "name": "Mocha",
+          "price": "",
+          "description": ""
+        },
+        {
+          "name": "Latte",
+          "price": "",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Sodas",
+      "menu": "Sodas",
+      "items": [
+        {
+          "name": "Dr Pepper",
+          "price": "",
+          "description": ""
+        },
+        {
+          "name": "Barq's Root Beer",
+          "price": "",
+          "description": ""
+        },
+        {
+          "name": "Sprite",
+          "price": "",
+          "description": ""
+        },
+        {
+          "name": "Diet Coke",
+          "price": "",
+          "description": ""
+        },
+        {
+          "name": "Coca Cola",
+          "price": "",
+          "description": ""
+        },
+        {
+          "name": "Water",
+          "price": "",
+          "description": ""
+        },
+        {
+          "name": "Unsweetened Gold Peak",
+          "price": "",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Cocktails",
+      "menu": "Cocktails",
+      "items": [
+        {
+          "name": "Sterling Allspice Old Fashion",
+          "price": "$20.00",
+          "description": "HW Double Rye, Allspice simple, Angostura Bitter, Orange Bitter."
+        },
+        {
+          "name": "Sterling Manhattan",
+          "price": "$21.00",
+          "description": "Whistlepig 10yr, Antica Vermouth, Angostura Bitter, Walnut Bitter, Maraschino Cherry."
+        },
+        {
+          "name": "Sterling 75",
+          "price": "$20.00",
+          "description": "Empress 1908 Gin, St. Germain, Lamarca Proceco, Lemon Juice, Lime Juice, Rosemary Syrup, Blueberry Syrup."
+        },
+        {
+          "name": "Holiday Mule",
+          "price": "$17.00",
+          "description": "Tito's Vodka, Domaine de Canton, Cranberries, Lime Juice, Allspice Syrup."
+        },
+        {
+          "name": "Ginger Lime Toddy",
+          "price": "$16.00",
+          "description": "Jameson, Cinnamon Ginger Syrup, Lime Juice."
+        },
+        {
+          "name": "Smoke On The Water",
+          "price": "$17.00",
+          "description": "Bozal Mezcal, Cointreau, Rosemary Syrup, Lime Juice, Lemon Juice."
+        },
+        {
+          "name": "A Winters Tale",
+          "price": "$18.00",
+          "description": "Ketel one, Cinnamon Ginger Syrup, Pear Juice."
+        },
+        {
+          "name": "Winter Paloma",
+          "price": "$19.00",
+          "description": "Espolon Bianco, Grapefruit, Lime Juice, Strawberry Syrup."
+        },
+        {
+          "name": "Les Fleurs",
+          "price": "$19.00",
+          "description": "Deep Eddy Grapefruit, Lavender Bitters, Grapefruit Juice, Lime Juice, Limoncello."
+        }
+      ]
+    },
+    {
+      "name": "Mocktails",
+      "menu": "Cocktails",
+      "items": [
+        {
+          "name": "Strawberry Italian Soda",
+          "price": "$12.00",
+          "description": "Heavy Cream, Soda, Grenadine, Strawberry Syrup, Whipped Cream."
+        },
+        {
+          "name": "Blueberry Lavender Lemonade",
+          "price": "$12.00",
+          "description": "Lavender Extract, Lemon Juice, Blueberry Syrup, Lemon Wheel, Blueberries, Mint."
+        },
+        {
+          "name": "Orange Moose",
+          "price": "$12.00",
+          "description": "Orange Juice, Grapefruit, Syrup, Heavy Cream, Mint, Orange Slice."
+        }
+      ]
+    },
+    {
+      "name": "Local/Craft",
+      "menu": "Beer",
+      "items": [
+        {
+          "name": "Delirium 'Tremens' Blegian Ale",
+          "price": "$10.00",
+          "description": "ABV 9.0%"
+        },
+        {
+          "name": "Hop Rising DIPA",
+          "price": "$9.00",
+          "description": "ABV 9.0%"
+        },
+        {
+          "name": "RR Frohlich Pilsner",
+          "price": "$9.00",
+          "description": "ABV 5.5%"
+        },
+        {
+          "name": "Proper Yacht Rock Juice Box",
+          "price": "$8.00",
+          "description": "ABV 5.0%"
+        },
+        {
+          "name": "Melvin IPA",
+          "price": "$8.00",
+          "description": "ABV 7.5%"
+        },
+        {
+          "name": "RoHa False Profit Hazy IPA",
+          "price": "$8.00",
+          "description": "ABV 7.0%"
+        },
+        {
+          "name": "KiiTOS Rimando IPA",
+          "price": "$8.00",
+          "description": "ABV 5.0%"
+        },
+        {
+          "name": "Pranqster Belgian Ale",
+          "price": "$8.00",
+          "description": "ABV 7.6%"
+        },
+        {
+          "name": "Deschutes Mirror Pond Pale Ale",
+          "price": "$8.00",
+          "description": "ABV 5.0%"
+        },
+        {
+          "name": "Oskar Blues Dales Pale Ale",
+          "price": "$8.00",
+          "description": "ABV 6.5%"
+        },
+        {
+          "name": "Moosehead Lager",
+          "price": "$8.00",
+          "description": "ABV 5.0%"
+        },
+        {
+          "name": "Moab Deadhorse Amber Ale",
+          "price": "$7.00",
+          "description": "ABV 5.0%"
+        },
+        {
+          "name": "Backyard Buzz Honey Wheat Ale",
+          "price": "$7.00",
+          "description": "ABV 5.0%"
+        },
+        {
+          "name": "KiiTOS Blackberry Sour",
+          "price": "$7.00",
+          "description": "ABV 5.0%"
+        },
+        {
+          "name": "Kettle House Honey Hefeweissen",
+          "price": "$7.00",
+          "description": "ABV 4.8%"
+        },
+        {
+          "name": "KiiTOS Gluten-free Golden Ale",
+          "price": "$7.00",
+          "description": "ABV 5.0%"
+        },
+        {
+          "name": "Old Milwaukee N/A",
+          "price": "$7.00",
+          "description": "ABV 0.05%"
+        },
+        {
+          "name": "White Claw Black Cherry Seltzer",
+          "price": "$6.00",
+          "description": "ABV 5.0%"
+        }
+      ]
+    },
+    {
+      "name": "Import/Domestic",
+      "menu": "Beer",
+      "items": [
+        {
+          "name": "Strongbow Hard Cider",
+          "price": "$8.00",
+          "description": "ABV  5.0%"
+        },
+        {
+          "name": "Guiness Extra Stout",
+          "price": "$8.00",
+          "description": "ABV 5.0%"
+        },
+        {
+          "name": "Pacifico",
+          "price": "$7.00",
+          "description": "ABV 4.4%"
+        },
+        {
+          "name": "Miller Lite",
+          "price": "$6.00",
+          "description": "ABV 5.0%"
+        },
+        {
+          "name": "Corona Extra",
+          "price": "$6.00",
+          "description": "ABV  4.6%"
+        }
+      ]
+    },
+    {
+      "name": "Sparkling",
+      "menu": "Wine Bottle Options",
+      "items": [
+        {
+          "name": "La Marca, Prosecco, Italy",
+          "price": "$38.00",
+          "description": ""
+        },
+        {
+          "name": "Domaine Ste Michelle Brut, Washington, NV",
+          "price": "$45.00",
+          "description": ""
+        },
+        {
+          "name": "Moet & Chandon, Imperial Brut, Champagne, France, NV",
+          "price": "$120.00",
+          "description": ""
+        },
+        {
+          "name": "Veuve Cliquot 'Yellow label' Brut, Champagne, France, NV",
+          "price": "$150.00",
+          "description": ""
+        },
+        {
+          "name": "Dom Perignon 'Blanc', Champagne, France",
+          "price": "$450.00",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Rose",
+      "menu": "Wine Bottle Options",
+      "items": [
+        {
+          "name": "Day Owl, Rose Blend, Central Coast, California",
+          "price": "$45.00",
+          "description": ""
+        },
+        {
+          "name": "Whispering Angel, Rose Blend, Cotes de Provence, France",
+          "price": "$58.00",
+          "description": ""
+        },
+        {
+          "name": "Miraval, Rose Blend, Cotes du Provence, France",
+          "price": "$65.00",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Pinot Grigio & Pinot Gris",
+      "menu": "Wine Bottle Options",
+      "items": [
+        {
+          "name": "A to Z, Pinot Gris, Oregon",
+          "price": "$48.00",
+          "description": ""
+        },
+        {
+          "name": "Santa Cristina, Pinot Grigio, Delle Venezie, Italy",
+          "price": "$52.00",
+          "description": ""
+        },
+        {
+          "name": "Archery Summit, Willamette Valley, Oregon",
+          "price": "$62.00",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Sauvignon Blanc",
+      "menu": "Wine Bottle Options",
+      "items": [
+        {
+          "name": "Kim Crawford, Marlborough, New Zealand",
+          "price": "$48.00",
+          "description": ""
+        },
+        {
+          "name": "Cakebread Cellars, Napa Valley, California",
+          "price": "$78.00",
+          "description": ""
+        },
+        {
+          "name": "Cloudy Bay, Marlborough, New Zealand",
+          "price": "$85.00",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Chardonnay",
+      "menu": "Wine Bottle Options",
+      "items": [
+        {
+          "name": "Sterling Vintner's, Central Coast, California",
+          "price": "$40.00",
+          "description": ""
+        },
+        {
+          "name": "La Crema, Sonoma Coast, California",
+          "price": "$65.00",
+          "description": ""
+        },
+        {
+          "name": "Hamilton Russell, Walker Bay, South Africa",
+          "price": "$95.00",
+          "description": ""
+        },
+        {
+          "name": "Rombauer, Carneros, California",
+          "price": "$105.00",
+          "description": ""
+        },
+        {
+          "name": "Patz & Hall, Dutton Ranch, Russian River Valley, California",
+          "price": "$120.00",
+          "description": ""
+        },
+        {
+          "name": "Shafer, Red Shoulder Ranch, Carneros, California 170",
+          "price": "$170.00",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Other Interesting Whites",
+      "menu": "Wine Bottle Options",
+      "items": [
+        {
+          "name": "Clean Slate, Mosel, Germany",
+          "price": "$39.00",
+          "description": ""
+        },
+        {
+          "name": "Pine Ridge, Chenin Blanc-Viognier, Napa Valley, California",
+          "price": "$48.00",
+          "description": ""
+        },
+        {
+          "name": "Vietti Moscato D' Asti",
+          "price": "$54.00",
+          "description": ""
+        },
+        {
+          "name": "Trimbach, Riesling, Alsace, France",
+          "price": "$68.00",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Cabernet Sauvignon",
+      "menu": "Wine Bottle Options",
+      "items": [
+        {
+          "name": "Sterling ‘Vintners Selection’, Central Coast, California, 2022",
+          "price": "$58.00",
+          "description": ""
+        },
+        {
+          "name": "Starmont, Napa Valley, California, 2019",
+          "price": "$65.00",
+          "description": ""
+        },
+        {
+          "name": "Intrinsic, Columbia Valley, Washington",
+          "price": "$68.00",
+          "description": ""
+        },
+        {
+          "name": "Fisher 'Unity', Napa Valley, California, 2020",
+          "price": "$93.00",
+          "description": ""
+        },
+        {
+          "name": "Taub Family ‘Heritance’, Cabernet Sauvignon, Napa Valley Silverado,",
+          "price": "$95.00",
+          "description": ""
+        },
+        {
+          "name": "Silverado, Napa Valley, California, 2019",
+          "price": "$115.00",
+          "description": ""
+        },
+        {
+          "name": "Raymond, Napa Valley, California, 2020",
+          "price": "$120.00",
+          "description": ""
+        },
+        {
+          "name": "Jordan, Alexander Valley, California",
+          "price": "$135.00",
+          "description": ""
+        },
+        {
+          "name": "Frog's Leap, Napa Valley, California, 2019",
+          "price": "$150.00",
+          "description": ""
+        },
+        {
+          "name": "Grgich Hills, Napa Valley, California, 2019",
+          "price": "$170.00",
+          "description": ""
+        },
+        {
+          "name": "Stag's Leap Cellars 'Artemis', Napa Valley, California, 2020",
+          "price": "$175.00",
+          "description": ""
+        },
+        {
+          "name": "Caymus, Cabernet Sauvignon, Napa Valley, California, 2021",
+          "price": "$190.00",
+          "description": ""
+        },
+        {
+          "name": "Shafer, ‘One Point Five’, Cabernet Sauvignon, Napa Valley, California",
+          "price": "$215.00",
+          "description": ""
+        },
+        {
+          "name": "Parallel, Napa Valley, California, 2018/2019",
+          "price": "$225.00",
+          "description": ""
+        },
+        {
+          "name": "Stags Leap 'Fay', Napa Valley, California",
+          "price": "$375.00",
+          "description": ""
+        },
+        {
+          "name": "Caymus ‘Special Select’, Napa Valley, California",
+          "price": "$390.00",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Pinot Noir",
+      "menu": "Wine Bottle Options",
+      "items": [
+        {
+          "name": "A to Z, Pinot Noir, Oregon",
+          "price": "$58.00",
+          "description": ""
+        },
+        {
+          "name": "Meiomi, California, 2021",
+          "price": "$65.00",
+          "description": ""
+        },
+        {
+          "name": "Raeburn Pinot Noir, Russian River Valley, Sonoma Coast, California",
+          "price": "$68.00",
+          "description": ""
+        },
+        {
+          "name": "Chehalem Reserve, Willamette Valley, Oregon, 2016/2017",
+          "price": "$75.00",
+          "description": ""
+        },
+        {
+          "name": "Hamilton Russell, Walker Bay, South Africa",
+          "price": "$95.00",
+          "description": ""
+        },
+        {
+          "name": "Adelsheim, Willamette Valley, Oregon, 2022",
+          "price": "$110.00",
+          "description": ""
+        },
+        {
+          "name": "Flowers, Sonoma Coast, California",
+          "price": "$125.00",
+          "description": ""
+        },
+        {
+          "name": "Rochioli, Russian River Valley, California, 2019/2020",
+          "price": "$195.00",
+          "description": ""
+        },
+        {
+          "name": "Kosta Brown, Russian River Valley, California, 2020",
+          "price": "$324.00",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Red Blends",
+      "menu": "Wine Bottle Options",
+      "items": [
+        {
+          "name": "Troublemaker, Central Coast, California",
+          "price": "$60.00",
+          "description": ""
+        },
+        {
+          "name": "The Prisoner, Napa Valley, California, 2020",
+          "price": "$125.00",
+          "description": ""
+        },
+        {
+          "name": "Duckhorn 'Paraduxx', Napa Valley, California, 2019",
+          "price": "$145.00",
+          "description": ""
+        },
+        {
+          "name": "Sinskey 'POV', Napa Valley, California, 2018",
+          "price": "$150.00",
+          "description": ""
+        },
+        {
+          "name": "Roy Mr. Evans 'Proprietary Red', Napa Valley, California",
+          "price": "$375.00",
+          "description": ""
+        },
+        {
+          "name": "Continuum ‘Proprietary Red’, Napa Valley, California",
+          "price": "$465.00",
+          "description": ""
+        },
+        {
+          "name": "Phelps 'Insignia', Bordeaux Blend, Napa Valley, California",
+          "price": "$495.00",
+          "description": ""
+        },
+        {
+          "name": "Opus One, Bordeaux blend, Napa Valley, California 595",
+          "price": "$595.00",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "French, German, Italian & Spanish Reds",
+      "menu": "Wine Bottle Options",
+      "items": [
+        {
+          "name": "Louis Jadot, Beaujolais, France, 2021/2022",
+          "price": "$45.00",
+          "description": ""
+        },
+        {
+          "name": "Villa Antinori Toscana, Tuscany, Italy, 2020",
+          "price": "$58.00",
+          "description": ""
+        },
+        {
+          "name": "Tenuta di Arceno 'IL Fauno', Tuscany, Italy, 2019/2020",
+          "price": "$95.00",
+          "description": ""
+        },
+        {
+          "name": "Castello Di Neive Barbaresco, Italy, 2020",
+          "price": "$120.00",
+          "description": ""
+        },
+        {
+          "name": "Caparzo Brunello Di Montalcino, Tuscany, Italy, 2018",
+          "price": "$120.00",
+          "description": ""
+        },
+        {
+          "name": "Camigliano Brunello di Montalcino, Tuscany, Italy",
+          "price": "$125.00",
+          "description": ""
+        },
+        {
+          "name": "Chateau La Nerthe, Chateauneuf-du-Pape, Rhone Valley, France",
+          "price": "$165.00",
+          "description": ""
+        },
+        {
+          "name": "Fattoria dei Barbi, Brunelle di Montalcino, Tuscany, Italy, 2018",
+          "price": "$175.00",
+          "description": ""
+        },
+        {
+          "name": "Antinori Tignanello, Tuscany, Italy 2020",
+          "price": "$300.00",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Merlot, Syrah, Malbec & Zinfandel",
+      "menu": "Wine Bottle Options",
+      "items": [
+        {
+          "name": "Antigal Uno Malbec, Mendoza, Argentina",
+          "price": "$48.00",
+          "description": ""
+        },
+        {
+          "name": "Trapiche Tesoro, Malbec, Mendoza, Argentina, 2021",
+          "price": "$48.00",
+          "description": ""
+        },
+        {
+          "name": "Charles Krug, Merlot, Napa Valley, California, 2020",
+          "price": "$65.00",
+          "description": ""
+        },
+        {
+          "name": "Saldo, Zinfandel, Napa Valley, Calfornia, 2021",
+          "price": "$78.00",
+          "description": ""
+        },
+        {
+          "name": "Seghesio 'Old Vine', Zinfandel, Sonoma Coast, 2022",
+          "price": "$83.00",
+          "description": ""
+        },
+        {
+          "name": "Orin Swift 'Abstract', Syrah, Napa Valley, California, 2021",
+          "price": "$99.00",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Dessert (By the Glass)",
+      "menu": "Wine Bottle Options",
+      "items": [
+        {
+          "name": "Graham's Tawny Port, Portugal",
+          "price": "$12.00",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Half Bottles - Red",
+      "menu": "Wine Bottle Options",
+      "items": [
+        {
+          "name": "Frog's Leap, Cabernet Sauvignon, Napa Valley, California, 2019",
+          "price": "$69.00",
+          "description": ""
+        },
+        {
+          "name": "Grgich Hills, Napa Valley, California, 2018",
+          "price": "$85.00",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Sparkling",
+      "menu": "Wine BTG Options",
+      "items": [
+        {
+          "name": "La Marca, Prosecco, Italy",
+          "price": "$11.00",
+          "description": ""
+        },
+        {
+          "name": "Domaine Ste Michelle Brut, Washington, NV",
+          "price": "$12.00",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Rose",
+      "menu": "Wine BTG Options",
+      "items": [
+        {
+          "name": "Whispering Angel, Rose Blend, Cotes de Provence, France",
+          "price": "$15.00",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Pinot Gris & Pinot Grigio",
+      "menu": "Wine BTG Options",
+      "items": [
+        {
+          "name": "A to Z, Pinot Gris, Oregon",
+          "price": "$12.00",
+          "description": ""
+        },
+        {
+          "name": "Santa Cristina, Pinot Grigio, Delle Venezie, Italy",
+          "price": "$14.00",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Sauvignon Blanc",
+      "menu": "Wine BTG Options",
+      "items": [
+        {
+          "name": "Kim Crawford, Marlborough, New Zealand",
+          "price": "$14.00",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Chardonnay",
+      "menu": "Wine BTG Options",
+      "items": [
+        {
+          "name": "Sterling Vintner's, Central Coast, California",
+          "price": "$10.00",
+          "description": ""
+        },
+        {
+          "name": "Rombauer, Carneros, California",
+          "price": "$24.00",
+          "description": ""
+        },
+        {
+          "name": "Hamilton Russell, Walker Bay, South Africa",
+          "price": "$19.00",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Other Interesting Whites",
+      "menu": "Wine BTG Options",
+      "items": [
+        {
+          "name": "Clean Slate, Mosel, Germany",
+          "price": "$11.00",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Cabernet Sauvignon",
+      "menu": "Wine BTG Options",
+      "items": [
+        {
+          "name": "Sterling ‘Vintners Selection’, Central Coast, California",
+          "price": "$14.00",
+          "description": ""
+        },
+        {
+          "name": "Intrinsic, Columbia Valley, Washington",
+          "price": "$16.00",
+          "description": ""
+        },
+        {
+          "name": "Taub Family ‘Heritance’, Cabernet Sauvignon, Napa Valley",
+          "price": "$22.00",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Pinot Noir",
+      "menu": "Wine BTG Options",
+      "items": [
+        {
+          "name": "A to Z, Oregon",
+          "price": "$12.00",
+          "description": ""
+        },
+        {
+          "name": "Raeburn, Russian River Valley, Sonoma Coast, California",
+          "price": "$18.00",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Red Blends",
+      "menu": "Wine BTG Options",
+      "items": [
+        {
+          "name": "The Prisoner, Napa Valley, California",
+          "price": "$29.00",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Italian Reds, Merlot & Malbec",
+      "menu": "Wine BTG Options",
+      "items": [
+        {
+          "name": "Antigal Uno Malbec, Mendoza, Argentina",
+          "price": "$12.00",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Dessert/Port",
+      "menu": "Wine BTG Options",
+      "items": [
+        {
+          "name": "Quady, Elysium Black Muscat",
+          "price": "",
+          "description": ""
+        },
+        {
+          "name": "Elderton, Botrytis Semillon",
+          "price": "",
+          "description": ""
+        },
+        {
+          "name": "Warres Otima 10yr Tawny",
+          "price": "",
+          "description": ""
+        },
+        {
+          "name": "Graham's LBV",
+          "price": "",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Whiskey",
+      "menu": "Spirits",
+      "items": [
+        {
+          "name": "Angel's Envy Bourbon",
+          "price": "$13.00",
+          "description": ""
+        },
+        {
+          "name": "Basil Hayden Bourbon",
+          "price": "$12.00",
+          "description": ""
+        },
+        {
+          "name": "Bookers Bourbon",
+          "price": "$18.00",
+          "description": ""
+        },
+        {
+          "name": "Bulleit Rye",
+          "price": "$11.00",
+          "description": ""
+        },
+        {
+          "name": "Crown Royal",
+          "price": "$10.00",
+          "description": ""
+        },
+        {
+          "name": "Fireball",
+          "price": "$9.00",
+          "description": ""
+        },
+        {
+          "name": "HW Midwinter Night's Dram",
+          "price": "$24.00",
+          "description": ""
+        },
+        {
+          "name": "HW Bourbon",
+          "price": "$14.00",
+          "description": ""
+        },
+        {
+          "name": "HW Double Rye",
+          "price": "$13.00",
+          "description": ""
+        },
+        {
+          "name": "HW Rendezvous",
+          "price": "$15.00",
+          "description": ""
+        },
+        {
+          "name": "* HW Bourye",
+          "price": "$23.00",
+          "description": ""
+        },
+        {
+          "name": "Jameson",
+          "price": "$10.00",
+          "description": ""
+        },
+        {
+          "name": "* Blanton's",
+          "price": "$25.00",
+          "description": ""
+        },
+        {
+          "name": "Breckenridge Port Cask Finish",
+          "price": "$15.00",
+          "description": ""
+        },
+        {
+          "name": "Maker's Mark",
+          "price": "$11.00",
+          "description": ""
+        },
+        {
+          "name": "Pendelton",
+          "price": "$11.00",
+          "description": ""
+        },
+        {
+          "name": "Woodford Reserve",
+          "price": "$13.00",
+          "description": ""
+        },
+        {
+          "name": "* Bufflao Trace",
+          "price": "$18.00",
+          "description": ""
+        },
+        {
+          "name": "* Eagle Rare 10yr",
+          "price": "$19.00",
+          "description": ""
+        },
+        {
+          "name": "Whistlepig Rye 6yr",
+          "price": "$17.00",
+          "description": ""
+        },
+        {
+          "name": "Sazerac Rye",
+          "price": "$11.00",
+          "description": ""
+        },
+        {
+          "name": "* Alpine Lafayette",
+          "price": "$13.00",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Scotch",
+      "menu": "Spirits",
+      "items": [
+        {
+          "name": "Dewars",
+          "price": "$10.00",
+          "description": ""
+        },
+        {
+          "name": "Glenfiddich 12yr",
+          "price": "$15.00",
+          "description": ""
+        },
+        {
+          "name": "Glenlivet 12yr",
+          "price": "$15.00",
+          "description": ""
+        },
+        {
+          "name": "Johnnie Walker Blue",
+          "price": "$38.00",
+          "description": ""
+        },
+        {
+          "name": "Johnnie Walker Black",
+          "price": "$14.00",
+          "description": ""
+        },
+        {
+          "name": "Johnnie Walker Gold",
+          "price": "$18.00",
+          "description": ""
+        },
+        {
+          "name": "Macallan 12yr",
+          "price": "$20.00",
+          "description": ""
+        },
+        {
+          "name": "Laphroig",
+          "price": "$15.00",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Gin",
+      "menu": "Spirits",
+      "items": [
+        {
+          "name": "Bombay Sapphire",
+          "price": "$11.00",
+          "description": ""
+        },
+        {
+          "name": "Hendricks",
+          "price": "$12.00",
+          "description": ""
+        },
+        {
+          "name": "Tanqueray",
+          "price": "$11.00",
+          "description": ""
+        },
+        {
+          "name": "Empresss 1908",
+          "price": "$12.00",
+          "description": ""
+        },
+        {
+          "name": "* Holystone",
+          "price": "$12.00",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Tequila",
+      "menu": "Spirits",
+      "items": [
+        {
+          "name": "A Don Julio 1942",
+          "price": "$45.00",
+          "description": ""
+        },
+        {
+          "name": "Don Julio Anejo",
+          "price": "$15.00",
+          "description": ""
+        },
+        {
+          "name": "Lalo Blanco",
+          "price": "$13.00",
+          "description": ""
+        },
+        {
+          "name": "* Don Julio Blanco",
+          "price": "$13.00",
+          "description": ""
+        },
+        {
+          "name": "Don Julio Reposado",
+          "price": "$14.00",
+          "description": ""
+        },
+        {
+          "name": "Espolon Blanco",
+          "price": "$12.00",
+          "description": ""
+        },
+        {
+          "name": "Espolon Reposado",
+          "price": "$13.00",
+          "description": ""
+        },
+        {
+          "name": "Casamigos Blanco",
+          "price": "$14.00",
+          "description": ""
+        },
+        {
+          "name": "Casamigos Reposado",
+          "price": "$15.00",
+          "description": ""
+        },
+        {
+          "name": "* Bozal Mezcal",
+          "price": "$13.00",
+          "description": ""
+        },
+        {
+          "name": "Xicaru Silver",
+          "price": "$14.00",
+          "description": ""
+        },
+        {
+          "name": "Patron Silver",
+          "price": "$14.00",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Rum",
+      "menu": "Spirits",
+      "items": [
+        {
+          "name": "Bacardi Superior",
+          "price": "$11.00",
+          "description": ""
+        },
+        {
+          "name": "Captain Morgan 'Spiced'",
+          "price": "$10.00",
+          "description": ""
+        },
+        {
+          "name": "Myers's Original Dark",
+          "price": "$10.00",
+          "description": ""
+        },
+        {
+          "name": "Malibu Coconut",
+          "price": "$9.00",
+          "description": ""
+        },
+        {
+          "name": "Sailor Jerry 'Spiced'",
+          "price": "$10.00",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Vodka",
+      "menu": "Spirits",
+      "items": [
+        {
+          "name": "Belvadere",
+          "price": "$13.00",
+          "description": ""
+        },
+        {
+          "name": "Grey Goose",
+          "price": "$14.00",
+          "description": ""
+        },
+        {
+          "name": "Ketel One",
+          "price": "$10.00",
+          "description": ""
+        },
+        {
+          "name": "Tito's Handmade",
+          "price": "$12.00",
+          "description": ""
+        },
+        {
+          "name": "Chopin",
+          "price": "$11.00",
+          "description": ""
+        },
+        {
+          "name": "Three Olives Citris",
+          "price": "$10.00",
+          "description": ""
+        },
+        {
+          "name": "360 Madagascar Vanilla",
+          "price": "$10.00",
+          "description": ""
+        },
+        {
+          "name": "* Absolute Citron",
+          "price": "$10.00",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Cognac",
+      "menu": "Spirits",
+      "items": [
+        {
+          "name": "Courvoisier VS",
+          "price": "$11.00",
+          "description": ""
+        },
+        {
+          "name": "Hennessy VS",
+          "price": "$12.00",
+          "description": ""
+        },
+        {
+          "name": "Courvoisier VSOP",
+          "price": "$15.00",
+          "description": ""
+        },
+        {
+          "name": "Remy XO",
+          "price": "$32.00",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Cordials",
+      "menu": "Spirits",
+      "items": [
+        {
+          "name": "Domaine De Canton Ginger",
+          "price": "$9.00",
+          "description": ""
+        },
+        {
+          "name": "Caravella Limoncello",
+          "price": "$9.00",
+          "description": ""
+        },
+        {
+          "name": "Aperol",
+          "price": "$10.00",
+          "description": ""
+        },
+        {
+          "name": "Campari Bitter Aperitivo",
+          "price": "$9.00",
+          "description": ""
+        },
+        {
+          "name": "Chambord Royal Liqueur",
+          "price": "$10.00",
+          "description": ""
+        },
+        {
+          "name": "Disaronno Amaretto",
+          "price": "$10.00",
+          "description": ""
+        },
+        {
+          "name": "Grand Marnier Cordon Rouge",
+          "price": "$10.00",
+          "description": ""
+        },
+        {
+          "name": "Kahlua Coffee",
+          "price": "$9.00",
+          "description": ""
+        },
+        {
+          "name": "Bailey's Irish Cream",
+          "price": "$9.00",
+          "description": ""
+        },
+        {
+          "name": "Jagermister",
+          "price": "$9.00",
+          "description": ""
+        },
+        {
+          "name": "Rumple Mintz",
+          "price": "$9.00",
+          "description": ""
+        },
+        {
+          "name": "Romana Sambuca",
+          "price": "$10.00",
+          "description": ""
+        },
+        {
+          "name": "Fernet",
+          "price": "$9.00",
+          "description": ""
+        },
+        {
+          "name": "Drambuie",
+          "price": "$10.00",
+          "description": ""
+        }
+      ]
+    }
+  ]
+}
