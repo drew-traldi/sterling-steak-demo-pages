@@ -185,7 +185,7 @@ const galleryGrid = $('#gallery-grid');
 const galleryMore = $('#gallery-more');
 const galleryNames = {food:'At the table',drinks:'At the bar',room:'The spaces',people:'The people'};
 let galleryPhotos = [], galleryFilter = 'all', galleryShown = 12, activePhoto = 0;
-const galleryPromise = fetch('assets/gallery.json').then(response => {
+const galleryPromise = fetch('assets/gallery.json?v=gallery-1').then(response => {
  if (!response.ok) throw Error('gallery unavailable');
  return response.json();
 }).then(photos => { galleryPhotos = photos; renderGallery(); }).catch(() => {
