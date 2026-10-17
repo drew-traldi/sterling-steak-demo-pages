@@ -55,7 +55,7 @@ mobileToggle.addEventListener('click', () => {
 });
 $$('a',mobileNav).forEach(a => a.addEventListener('click',closeNav));
 document.addEventListener('keydown',e => {if(e.key==='Escape' && !mobileNav.hidden){closeNav();mobileToggle.focus();}});
-matchMedia('(min-width: 781px)').addEventListener('change',e => {if(e.matches)closeNav();});
+matchMedia('(min-width: 1121px)').addEventListener('change',e => {if(e.matches)closeNav();});
 let prevScroll = 0, scrollPending = false;
 window.addEventListener('scroll', () => {
   if (scrollPending) return;
@@ -178,7 +178,6 @@ $('#inquiry-form').addEventListener('submit',e=>{
 
 // Introduce the independently produced concept on each page visit. Native dialog supports Escape and focus trapping.
 const welcomeDialog = $('#demo-welcome');
-welcomeDialog.addEventListener('close', () => $('.wordmark').focus({preventScroll:true}));
 openDialog(welcomeDialog);
 
 const galleryGrid = $('#gallery-grid');

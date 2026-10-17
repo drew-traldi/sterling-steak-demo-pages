@@ -58,3 +58,38 @@ h2,.section-heading h2,.gathering-heading h2,.visit-card h2,.footer-phone{font-s
 .photo-nav span{font-size:13px;font-variant-numeric:tabular-nums;min-width:56px;text-align:center}
 @media(max-width:780px){.gallery-heading{display:block;margin-bottom:38px}.gallery-heading>p{margin-top:22px}.gallery-grid{gap:32px 14px}.gallery-card,.gallery-card:nth-child(10n+1){grid-column:span 6}.gallery-card:nth-child(7n+1){grid-column:span 12}.gallery-card img{aspect-ratio:4/5}.gallery-card:nth-child(7n+1) img{aspect-ratio:16/10}.gallery-card figcaption{display:block}.gallery-card figcaption span:last-child{display:block;margin-top:3px}.gallery-footer{margin-top:42px}}
 @media(max-width:480px){.gallery-filters{gap:6px}.gallery-filters button{padding:9px 11px;min-height:42px;font-size:13px}.gallery-grid{gap:24px 10px}.gallery-card figcaption{font-size:13px}.gallery-card figcaption span:last-child{font-size:11px}.gallery-footer{display:block}.gallery-footer .button{width:100%;margin-bottom:22px}.gallery-footer .text-link{margin-left:0}.photo-meta{display:block}.photo-nav{justify-content:space-between;margin-top:15px}}
+
+/* The original Sterling crest anchors a full-width, two-sided navigation. */
+.site-header,.site-header[data-theme=light],.site-header[data-theme=dark]{display:grid;grid-template-columns:minmax(0,1fr) 154px minmax(0,1fr);gap:16px;align-items:center;height:118px;min-height:118px;padding:0 clamp(20px,3vw,46px);background:#3a0b02;color:#bea783}
+.brand-crest{position:absolute;top:17px;left:50%;transform:translateX(-50%);width:154px;z-index:2}
+.brand-crest img{display:block;width:100%;height:auto;object-fit:contain}
+.desktop-nav{gap:clamp(10px,1.15vw,19px);font-size:clamp(12px,.95vw,14px);font-weight:600;line-height:1.2;letter-spacing:.035em;text-transform:uppercase;white-space:nowrap}
+.desktop-nav-left{grid-column:1;grid-row:1;justify-self:start}
+.desktop-nav-right{grid-column:3;grid-row:1;justify-self:end}
+.desktop-nav a{padding:16px 0;color:#c5aa83}
+.desktop-nav a:hover,.desktop-nav a:focus-visible{color:var(--light)}
+.header-social{display:flex;align-items:center;gap:13px;margin-left:clamp(6px,1.2vw,20px)}
+.header-social a{font-size:18px;font-weight:700;line-height:1;letter-spacing:0;text-transform:none}
+.header-actions{display:none}
+.hero-scrim{background:linear-gradient(180deg,rgba(12,5,2,.2) 0%,rgba(16,8,4,.08) 35%,rgba(10,5,3,.78) 100%)}
+.hero-intro{top:clamp(220px,30vh,330px);max-width:520px;padding:28px 32px;background:rgba(244,240,235,.94);color:var(--ink);border-left:4px solid var(--accent);box-shadow:0 18px 70px rgba(13,6,2,.2)}
+.hero-intro p{font-family:var(--display);font-size:clamp(28px,3vw,42px);line-height:1.16;letter-spacing:-.03em;margin-bottom:20px}
+.hero-intro .text-link{color:var(--ink);font-size:17px}
+.hero-foot{font-size:18px;text-shadow:0 2px 12px rgba(0,0,0,.8)}
+.hero h1{text-shadow:0 7px 36px rgba(0,0,0,.55)}
+@media(max-height:800px) and (min-width:1121px){.hero-intro{top:190px}}
+@media(max-width:1120px){
+.site-header,.site-header[data-theme=light],.site-header[data-theme=dark]{display:flex;justify-content:center;height:86px;min-height:86px;padding:10px var(--gutter)}
+.brand-crest{width:93px;top:10px}
+.desktop-nav{display:none}
+.header-actions{display:flex;position:absolute;right:var(--gutter);top:19px;margin:0}
+.mobile-toggle{display:block;width:48px;height:48px}
+.site-header.menu-open .mobile-toggle span:first-child{transform:translateY(4px) rotate(45deg)}
+.site-header.menu-open .mobile-toggle span:last-child{transform:translateY(-4px) rotate(-45deg)}
+.mobile-nav{top:86px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 20px;padding:24px var(--gutter) 30px;max-height:calc(100svh - 86px);overflow:auto;box-shadow:0 20px 35px rgba(0,0,0,.25)}
+.mobile-nav[hidden]{display:none}
+.mobile-nav a{font:600 16px/1.25 var(--body);text-transform:uppercase;letter-spacing:.04em;min-height:50px;display:flex;align-items:center;border-bottom:1px solid rgba(244,240,235,.2)}
+.mobile-nav a:hover{color:var(--accent)}
+}
+@media(max-width:780px){.hero-intro{top:23%;left:var(--gutter);max-width:min(470px,calc(100% - 2*var(--gutter)));padding:23px 26px}.hero-intro p{font-size:clamp(27px,5.2vw,36px)}.hero-intro .text-link{font-size:16px}.hero-foot{font-size:16px}}
+@media(max-width:480px){.brand-crest{width:88px}.hero-intro{top:22%;padding:20px 22px}.hero-intro p{font-size:27px}.hero-intro .text-link{font-size:15px}.hero-scrim{background:linear-gradient(180deg,rgba(12,5,2,.1) 0%,rgba(12,5,2,.04) 30%,rgba(10,5,3,.8) 100%)}}
