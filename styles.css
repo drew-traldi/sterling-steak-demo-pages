@@ -93,3 +93,59 @@ h2,.section-heading h2,.gathering-heading h2,.visit-card h2,.footer-phone{font-s
 }
 @media(max-width:780px){.hero-intro{top:23%;left:var(--gutter);max-width:min(470px,calc(100% - 2*var(--gutter)));padding:23px 26px}.hero-intro p{font-size:clamp(27px,5.2vw,36px)}.hero-intro .text-link{font-size:16px}.hero-foot{font-size:16px}}
 @media(max-width:480px){.brand-crest{width:88px}.hero-intro{top:22%;padding:20px 22px}.hero-intro p{font-size:27px}.hero-intro .text-link{font-size:15px}.hero-scrim{background:linear-gradient(180deg,rgba(12,5,2,.1) 0%,rgba(12,5,2,.04) 30%,rgba(10,5,3,.8) 100%)}}
+
+/* Phone visitors get one obvious reservation action and a calm, vertical page flow. */
+html,body{max-width:100%;overflow-x:clip;overscroll-behavior-x:none}
+.hero-reserve,.mobile-visit-strip{display:none}
+@media(max-width:1120px){
+.mobile-nav{display:block}
+.mobile-nav[hidden]{display:none}
+.mobile-nav-primary,.mobile-nav-secondary{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 16px}
+.mobile-nav a{min-width:0}
+.mobile-nav-primary .mobile-nav-reserve{grid-column:1/-1;display:flex;justify-content:space-between;min-height:56px;margin-bottom:9px;padding:12px 18px;background:var(--accent);color:var(--ink);border:0;font-size:16px}
+.mobile-nav-label{margin:24px 0 8px;color:var(--accent);font-size:12px;font-weight:600;letter-spacing:.12em;text-transform:uppercase}
+.mobile-nav-secondary a{font-size:14px;font-weight:500;min-height:46px}
+}
+@media(max-width:780px){
+.hero-intro{top:21%;padding:26px 27px;background:rgba(244,240,235,.97)}
+.hero-intro p{margin-bottom:22px}
+.hero-actions{display:grid;gap:8px}
+.hero-reserve{display:flex;width:100%;justify-content:space-between;gap:12px;min-height:56px;font-size:17px;font-weight:600}
+.hero-intro .text-link{display:flex;align-items:center;min-height:44px;width:max-content;font-size:16px}
+.mobile-visit-strip{display:block;padding:30px var(--gutter) 34px;background:var(--surface)}
+.mobile-visit-strip>p{font-size:15px;font-weight:600;margin-bottom:18px}
+.mobile-visit-strip>div{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.mobile-visit-strip a{display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:52px;padding:10px 13px;border:1px solid rgba(36,25,19,.4);font-size:14px;font-weight:500;line-height:1.25}
+.mobile-visit-strip a span{flex-shrink:0}
+.intro,.menu-section,.lounge,.gatherings,.gallery-section{padding-top:100px;padding-bottom:100px}
+.intro{gap:52px}
+.intro-visual{display:block}
+.intro-visual img{width:100%;aspect-ratio:4/3}
+.intro-visual p{max-width:none;margin:16px 0 0;font-size:16px}
+.gallery-card figcaption{font-size:15px}
+.gallery-filters button{min-height:48px;font-size:14px}
+}
+@media(max-width:600px){
+.food-gallery{display:block}
+.food-gallery>*+*{margin-top:56px}
+.dish-main,.dish-secondary,.dish-third,.menu-aside{width:100%;max-width:none;margin-left:0;margin-right:0}
+.dish-main img,.dish-secondary img,.dish-third img{aspect-ratio:4/3}
+.dish figcaption{display:flex;gap:16px}
+.dish figcaption span{margin-top:0}
+.lounge{gap:48px}
+.cocktail-inset{width:100%;max-width:none;margin:44px 0 0}
+.cocktail-inset img{aspect-ratio:4/3}
+.music-photo{width:100%;margin:0}
+.music-photo img{aspect-ratio:4/3}
+.music-photo figcaption{margin-top:16px}
+}
+@media(max-width:480px){
+.hero-intro{top:20%;padding:23px 23px}
+.hero-intro p{font-size:28px}
+.hero-intro .text-link{font-size:15px}
+.mobile-visit-strip a{font-size:13px;padding:10px 11px}
+.intro,.menu-section,.lounge,.gatherings,.gallery-section{padding-top:88px;padding-bottom:88px}
+.gallery-card figcaption{font-size:14px}
+.gallery-card figcaption span:last-child{font-size:12px}
+}
+@media(max-width:360px){.hero-intro p{font-size:25px}.evening-tabs button{font-size:14px;padding:12px 9px}}

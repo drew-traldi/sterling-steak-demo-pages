@@ -1,4 +1,6 @@
 'use strict';
+// Browser restoration can reopen the demo at the last scroll position. Keep deep links intact.
+if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
 const $ = (s, root = document) => root.querySelector(s);
 const $$ = (s, root = document) => [...root.querySelectorAll(s)];
 const reduced = matchMedia('(prefers-reduced-motion: reduce)');
@@ -57,6 +59,16 @@ $$('a',mobileNav).forEach(a => a.addEventListener('click',closeNav));
 document.addEventListener('keydown',e => {if(e.key==='Escape' && !mobileNav.hidden){closeNav();mobileToggle.focus();}});
 matchMedia('(min-width: 1121px)').addEventListener('change',e => {if(e.matches)closeNav();});
 let prevScroll = 0, scrollPending = false;
+window.addEventListener('pageshow', () => {
+  if (location.hash && location.hash !== '#home') return;
+  const root = document.documentElement;
+  const previousBehavior = root.style.scrollBehavior;
+  root.style.scrollBehavior = 'auto';
+  window.scrollTo(0, 0);
+  header.classList.remove('header-away');
+  prevScroll = 0;
+  requestAnimationFrame(() => { root.style.scrollBehavior = previousBehavior; });
+});
 window.addEventListener('scroll', () => {
   if (scrollPending) return;
   scrollPending = true;
